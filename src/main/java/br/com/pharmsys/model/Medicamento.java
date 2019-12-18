@@ -1,6 +1,7 @@
 package br.com.pharmsys.model;
 
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,10 +12,10 @@ public class Medicamento {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
+	@Column(name="iD")
 	private Integer id;
 	
-	
+	@Column(name="nome_medic")
 	private String nomeMedicamento;
 	
 	

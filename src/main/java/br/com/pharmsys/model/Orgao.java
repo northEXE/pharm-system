@@ -13,7 +13,6 @@ import javax.persistence.OneToOne;
 public class Orgao {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
 	private Integer id;
 
 	private String nomeOrgao;
